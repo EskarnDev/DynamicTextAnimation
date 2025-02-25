@@ -1,0 +1,38 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Dynamic Text Animation - Behavior Pack",
+        "description": "A dynamic text animation system allowing text to appear letter-by-letter for a more immersive experience",
+        "min_engine_version": [
+            1,
+            20,
+            0
+        ],
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "uuid": "c3f572c4-9f38-48d7-a424-e45532c3e04b"
+    },
+    "modules": [
+        {
+            "type": "script",
+            "description": "Script Module",
+            "language": "javascript",
+            "entry": "scripts/index.js",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "uuid": "708ead91-4003-4238-a6c9-ff9f78dd88e9"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.18.0-beta"
+        }
+    ]
+}
