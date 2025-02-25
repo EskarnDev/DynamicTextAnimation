@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Dynamic Text Animation - Resource Pack",
+        "description": "Removes the fade-in animation from the Title & Subtitle for support with the provided Behavior Pack",
+        "min_engine_version": [
+            1,
+            20,
+            0
+        ],
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "uuid": "d7c2ccc9-5634-4d0a-8c3c-1f2c7743b1f9"
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "description": "Resource Module",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "uuid": "eaafbf29-5648-4e18-9bf6-8d01cc9377ad"
+        }
+    ]
+}
